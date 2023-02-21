@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.945);   
+}
+html{
+    scroll-behavior: smooth; 
+
+}
+p{
+    margin:0;
+}
+body{
+    background-image: url("../assets/img/fondo1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegacion */
+.nav {
+    position: fixed;
+    background-color: #2b2b2b;
+    min-height: 7vh;
+    align-items: center;
+    width: 100%;
+    font-size: calc(0.5rem + 1vw);
+    z-index: 5;
+    left:0;
+    top:0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cv {
+    margin-left: 2px;
+}
+
+.content-nav {
+    justify-content: end;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;  
+
+}
+
+.nav .list-nav {
+    list-style: none;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    display: flex;
+}
+.button{
+    display: none;
+}
+
+
+.item-nav {
+    margin-right: calc(0.3rem + 0.5vw);
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button{
+    border: none;
+    background:none;
+    padding:0;
+    margin:0 5px;
+}
+.svg{
+    height: 1.6rem;
+    width: 1.6rem;
+}
+
+.item-nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);;
+}
+
+.item-nav:hover {
+    background-color: #303030;
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+/* Informacion propia */
+.images{
+    text-align: center;
+
+}
+.img-banner{
+    margin:7vh auto 0 auto;
+    max-height: 300px;
+    border-radius: 20px;
+}
+
+.img-perfil {
+    height: calc(6rem + 5vw);
+    max-height: 150px;
+    border-radius: 50%;
+}
+
+.profession{
+    font-size: calc(1.2rem + 0.5vw);
+    margin:0;
+}
+
+.descrp{
+    font-size: calc(0.8rem + 0.5vw);
+}
+.container{
+    border:1px solid white;
+    border-radius: 15px;
+}
+.info{
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+}
+.hab-proyect{
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    margin-top:10px
+}
+/* seccion:Habilidad */
+.list-hab{
+    margin: calc(0.8rem + 0.5vw) 0 calc(0.8rem + 0.5vw) 0;
+}
+.items-hab{
+    list-style: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* seccion:Proyect */
+.seccion-proyect{
+    margin-bottom: calc(0.8rem + 0.5vw);
+}
+.proyect{
+    max-width: 380px;
+    max-height: 190px;
+    margin:auto;
+}
+/* seccion:Educacion */
+.edu{
+    margin:calc(0.8rem + 0.5vw) 0;
+    max-width: 1500px;
+    margin:auto;
+}
+
+@media screen and (max-width:480px) {
+    .button{
+        display: block;
+    }
+    .nav .content-nav{
+        width: 100%;
+        justify-content: center;
+        height: 0;
+        overflow: hidden;
+        transition: height 0.5s;
+        pointer-events: none;
+    }
+    .nav .content-nav.activo{
+        height: 50vh;
+        pointer-events: auto;
+    }
+    .nav .list-nav{
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    .nav .item-nav{
+        margin: 1rem 0;
+        
+    }
+    .nav .item-nav:hover{
+        border-bottom: 1px solid #ffffff;
+    }
+}
