@@ -26,7 +26,8 @@ ul {
 .nav {
     position: fixed;
     background-color: #2b2b2b;
-    min-height: 7vh;
+    height: 7vh;
+    max-height: 40px;
     align-items: center;
     width: 100%;
     font-size: calc(0.5rem + 1vw);
@@ -93,7 +94,7 @@ ul {
 
 }
 .img-banner{
-    margin:7vh auto 0 auto;
+    margin:40px auto 0 auto;
     max-height: 300px;
     border-radius: 20px;
 }
