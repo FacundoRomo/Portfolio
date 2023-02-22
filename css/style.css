@@ -26,7 +26,7 @@ ul {
 .nav {
     position: fixed;
     background-color: #2b2b2b;
-    height: 50px;
+    min-height: 50px;
     align-items: center;
     padding: 0 10px;
     width: 100%;
@@ -94,7 +94,7 @@ ul {
 
 }
 .img-banner{
-    margin:6vh auto 0 auto;
+    margin:60px auto 0 auto;
     max-height: 300px;
     border-radius: 20px;
 }
@@ -159,7 +159,10 @@ ul {
         display: block;
     }
     .nav{
-        height: 30px;
+        min-height: 30px;
+    }
+    .img-banner{
+        margin:40px auto 0 auto;
     }
     .nav .content-nav{
         width: 100%;
