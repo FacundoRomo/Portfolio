@@ -26,8 +26,9 @@ ul {
 .nav {
     position: fixed;
     background-color: #2b2b2b;
+    min-height: 5vh;
     align-items: center;
-    height:5vh;
+    padding: 0 10px;
     width: 100%;
     font-size: calc(0.5rem + 1vw);
     z-index: 5;
