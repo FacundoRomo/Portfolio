@@ -1,4 +1,6 @@
+/* Fuentes de Google */
 @import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@200&display=swap');
 
 * {
     font-family: 'Inter', sans-serif;;
@@ -55,7 +57,7 @@ ul {
     justify-content: flex-end;
     display: flex;
 }
-.button{
+.menu{
     display: none;
 }
 
@@ -153,9 +155,34 @@ ul {
     max-width: 1500px;
     margin:auto;
 }
+/* seccion:Footer */
+.footer{
+    background-color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 ;
+}
+.footer .icon{
+    margin-bottom: 10px;
+}
+.footer .back{
+    margin: 10px 0;
+}
+.footer .contact{
+    color:#ffffffab;
+    font-family:'Oswald', sans-serif;
+}
+.footer .what:hover{
+    fill: #25D366;
+}
+.footer .mail:hover{
+    fill: #34B7F1;
+}
+
 
 @media screen and (max-width:480px) {
-    .button{
+    .menu{
         display: block;
     }
     .nav{
