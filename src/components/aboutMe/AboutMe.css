@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap');
+
+.about{
+  background-color: #C38154 ;
+}
+
+.about-title, .description{
+  font-family: 'Heebo', sans-serif;
+}
+
+.container-descrp{
+  height:calc(100vh - calc(0.6em + 1vw) - calc(2em + 1vw)) ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 calc(0.9em + 1vw);
+  align-items: center;
+}
+
+.description{
+  text-align: center;
+  color: #fff;
+  font-size: calc(0.9em + 0.7vw);
+}
+
+.container-descrp span{
+  color: #3C2317;
+  font-weight:500;
+}

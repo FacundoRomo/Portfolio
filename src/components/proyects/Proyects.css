@@ -1,0 +1,19 @@
+.proyects{
+  background-color: #3b3863;
+}
+
+.list-proyects{
+  margin-top: 15vw;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  justify-items: center;
+  gap: calc(6vw);
+  padding: 0 2vw 2vw 2vw;
+}
+
+@media only screen and (max-width: 640px){
+  .list-proyects{
+    grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+  }
+}
