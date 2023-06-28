@@ -1,5 +1,5 @@
 import './header.css'
-import { Logo } from '../../assets/icons'
+import { Logo } from '../../../public/assets/icons'
 import { Presentation } from '../presentation/presentation'
 import { AboutMe } from '../aboutMe/AboutMe'
 import { Footer } from '../footer/Footer'

@@ -1,5 +1,5 @@
 import { Proyect } from '../proyect/Proyect'
-import { PROYECTS } from '../../assets/proyect'
+import { PROYECTS } from '../../../public/assets/proyect'
 import './Proyects.css'
 import { forwardRef } from 'react'
 
