@@ -1,5 +1,5 @@
 import './header.css'
-import { Logo } from '../../../public/assets/icons'
+import { Logo } from '../../../public/icons'
 import { Presentation } from '../presentation/presentation'
 import { AboutMe } from '../aboutMe/AboutMe'
 import { Footer } from '../footer/Footer'
@@ -20,7 +20,7 @@ export function Header () {
             <li className='option' onClick={() => scrollToElement(proyects)}>Proyectos</li>
             <li className='option' onClick={() => scrollToElement(aboutMe)}>Sobre mi</li>
             <li className='option' onClick={() => scrollToElement(contacto)}>Contacto</li>
-            <li className='option'><a href='src/assets/RomoFacundoCV.pdf' download>Descargar CV</a></li>
+            <li className='option'><a href='./RomoFacundoCV.pdf' download>Descargar CV</a></li>
           </ul>
         </div>
       </nav>

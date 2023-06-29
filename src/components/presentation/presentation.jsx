@@ -25,7 +25,7 @@ export function Presentation () {
           </div>
         </div>
         <aside>
-          <img src='\assets\programming.svg' alt='' className='logo-presentation' />
+          <img src='./programming.svg' alt='' className='logo-presentation' />
         </aside>
       </main>
     </>

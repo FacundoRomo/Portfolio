@@ -1,6 +1,6 @@
 import { forwardRef } from 'react'
 import './Footer.css'
-import { FaWhatsapp, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaWhatsapp, FaLinkedin } from 'react-icons/fa'
 import { GoMail } from 'react-icons/go'
 
 export const Footer = forwardRef((props, ref) => {
